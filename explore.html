@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="explore.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Explore NFTs - Insanely Expensive JPEGs</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1>Explore NFTs</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="filter">
+        <div class="container">
+          <h2>Filter NFTs</h2>
+          <div class="filters">
+            <select id="price-filter">
+              <option value="all">All Prices</option>
+              <option value="under1m">Under $1M</option>
+              <option value="1m-5m">$1M - $5M</option>
+              <option value="over5m">Over $5M</option>
+            </select>
+            <select id="category-filter">
+              <option value="all">All Categories</option>
+              <option value="art">Art</option>
+              <option value="music">Music</option>
+              <option value="collectible">Collectibles</option>
+            </select>
+            <button id="filter-btn" class="btn btn-primary">
+              Apply Filters
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery-items" id="nft-gallery">
+            <!-- NFT items will be dynamically injected here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Insanely Expensive JPEGs</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
