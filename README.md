@@ -10,7 +10,7 @@ Insanely Expensive JPEGs is a cutting-edge NFT gallery where users can explore, 
 
 ## Live Demo
 
-Experience the live site [here](https://nft.dhiashalabi.info).
+Experience the live site [here](https://nft.dhiashalabi.live).
 
 ## Technologies Used
 
