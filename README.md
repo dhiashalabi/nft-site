@@ -63,7 +63,3 @@ The JavaScript file includes essential functionalities:
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Enjoy exploring the world of Insanely Expensive JPEGs! Feel free to explore, modify, and enhance the code.
