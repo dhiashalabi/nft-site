@@ -33,7 +33,6 @@ export default defineConfig({
 		rollupOptions: {
 			input: getHtmlEntryFiles('.')
 		},
-
 	},
 	optimizeDeps: {
 		entries: 'src/**/*{.html,.css,.js}'
